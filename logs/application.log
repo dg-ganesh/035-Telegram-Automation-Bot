@@ -1,0 +1,98 @@
+2026-10-13 15:10:00,618 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 15:10:00,636 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 15:10:01,550 | ERROR | Application error at checkpoint: Application startup or runtime
+Traceback (most recent call last):
+  File "D:\ADGProjects\035 Telegram Automation Bot\main.py", line 43, in main
+    MainWindow(
+    ~~~~~~~~~~^
+        root=root,
+        ^^^^^^^^^^
+        config=config,
+        ^^^^^^^^^^^^^^
+        logging_service=logging_service,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\ADGProjects\035 Telegram Automation Bot\src\ui\main_window.py", line 52, in __init__
+    self.token_var = tk.StringVar(value=config.initial_token)
+                                        ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AppConfig' object has no attribute 'initial_token'
+2026-10-13 15:10:01,554 | INFO | Execution finished with status FAIL
+2026-10-13 15:10:45,798 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 15:10:45,823 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 15:10:46,096 | INFO | CHECKPOINT PASS: Main window constructed | GUI controls created.
+2026-10-13 15:10:46,097 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 15:10:57,906 | INFO | Execution finished with status PASS
+2026-10-13 15:14:29,823 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 15:14:29,824 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 15:14:29,906 | INFO | CHECKPOINT PASS: Main window constructed | GUI controls created.
+2026-10-13 15:14:29,907 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 15:15:01,999 | INFO | CHECKPOINT PASS: Telegram connection verification | Telegram bot connected successfully.
+2026-10-13 15:18:51,201 | INFO | CHECKPOINT PASS: Application shutdown | Window closed by user.
+2026-10-13 15:18:51,217 | INFO | Execution finished with status PASS
+2026-10-13 18:10:59,524 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 18:10:59,551 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 18:10:59,848 | INFO | CHECKPOINT PASS: Main window constructed | Connection controls and message panel created.
+2026-10-13 18:10:59,859 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 18:11:02,421 | ERROR | CHECKPOINT FAIL: Telegram connection verification | Bot token format validation failed.
+2026-10-13 18:11:02,422 | WARNING | Telegram token format validation failed.
+2026-10-13 18:11:32,851 | INFO | CHECKPOINT PASS: Telegram connection verification | Telegram bot connected successfully.
+2026-10-13 18:17:46,695 | ERROR | Delivery processing error for chat ID 9591993056: TypeError
+2026-10-13 18:17:46,807 | WARNING | Telegram delivery FAILED for chat ID 9591993056
+2026-10-13 18:17:46,809 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:18:19,971 | ERROR | Delivery processing error for chat ID 9591993056: TypeError
+2026-10-13 18:18:20,065 | WARNING | Telegram delivery FAILED for chat ID 9591993056
+2026-10-13 18:18:20,084 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:18:52,550 | ERROR | Delivery processing error for chat ID 7019873497: TypeError
+2026-10-13 18:18:52,557 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:18:52,558 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:18:54,586 | ERROR | Delivery processing error for chat ID 7019873497: TypeError
+2026-10-13 18:18:54,674 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:18:54,675 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:18:56,117 | ERROR | Delivery processing error for chat ID 7019873497: TypeError
+2026-10-13 18:18:56,145 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:18:56,145 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:19:31,857 | INFO | CHECKPOINT PASS: Application shutdown | Window closed by user.
+2026-10-13 18:19:31,905 | INFO | Execution finished with status FAIL
+2026-10-13 18:28:08,346 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 18:28:08,347 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 18:28:08,425 | INFO | CHECKPOINT PASS: Main window constructed | Connection controls and message panel created.
+2026-10-13 18:28:08,426 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 18:28:34,491 | INFO | CHECKPOINT PASS: Telegram connection verification | Telegram bot connected successfully.
+2026-10-13 18:29:36,456 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:29:36,457 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:30:04,753 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:30:04,754 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:31:23,362 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:31:23,362 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:34:21,578 | INFO | CHECKPOINT PASS: Application shutdown | Window closed by user.
+2026-10-13 18:34:21,622 | INFO | Execution finished with status FAIL
+2026-10-13 18:38:14,833 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 18:38:14,834 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 18:38:14,922 | INFO | CHECKPOINT PASS: Main window constructed | Connection controls and message panel created.
+2026-10-13 18:38:14,923 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 18:38:49,891 | INFO | CHECKPOINT PASS: Telegram connection verification | Telegram bot connected successfully.
+2026-10-13 18:39:07,730 | WARNING | Telegram delivery FAILED for chat ID 7019873497
+2026-10-13 18:39:07,732 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 18:40:04,476 | WARNING | Telegram delivery FAILED for chat ID 917019873497
+2026-10-13 18:40:04,477 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 19:19:30,953 | INFO | CHECKPOINT PASS: Application shutdown | Window closed by user.
+2026-10-13 19:19:31,016 | INFO | Execution finished with status FAIL
+2026-10-13 19:34:28,306 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 19:34:28,307 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 19:34:28,393 | INFO | CHECKPOINT PASS: Main window constructed | Connection controls and message panel created.
+2026-10-13 19:34:28,394 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 19:34:59,507 | INFO | CHECKPOINT PASS: Telegram connection verification | Telegram bot connected successfully.
+2026-10-13 19:35:17,859 | WARNING | Telegram delivery FAILED for chat ID 8962013268
+2026-10-13 19:35:17,861 | ERROR | CHECKPOINT FAIL: Telegram message delivery attempt | 0 sent; 1 failed. Results displayed.
+2026-10-13 19:44:20,628 | INFO | Execution finished with status FAIL
+2026-10-13 19:55:46,212 | INFO | Starting Telegram Automation Bot version 1.0.0
+2026-10-13 19:55:46,213 | INFO | CHECKPOINT PASS: Configuration loaded | Application configuration initialized successfully.
+2026-10-13 19:55:46,298 | INFO | CHECKPOINT PASS: Main window constructed | Connection controls and message panel created.
+2026-10-13 19:55:46,299 | INFO | CHECKPOINT PASS: GUI initialized | Main application window initialized successfully.
+2026-10-13 19:56:13,781 | INFO | CHECKPOINT PASS: Telegram connection verification | Telegram bot connected successfully.
+2026-10-13 19:57:22,871 | INFO | Telegram delivery SENT for chat ID 1142342458
+2026-10-13 19:57:22,871 | INFO | Telegram delivery SENT for chat ID 1886394765
+2026-10-13 19:57:22,873 | INFO | CHECKPOINT PASS: Telegram message delivery attempt | 2 sent; 0 failed. Results displayed.
+2026-10-13 19:58:56,875 | INFO | CHECKPOINT PASS: Application shutdown | Window closed by user.
+2026-10-13 19:58:56,930 | INFO | Execution finished with status PASS
